@@ -16,3 +16,4 @@ Steps to serve a page from your local machine to your phone etc:
 [Adafruit nRF52840 Feather example: implementing a custom heart rate monitor](https://learn.adafruit.com/introducing-the-adafruit-nrf52840-feather/custom-hrm)
 
 [A browser for IOS that implements WebBluetooth](https://www.greenparksoftware.co.uk/projects/webble/1.2.3)
+[Open this app in WebBLE](webble://tomhodson.github.io/WebBLE_micro/)

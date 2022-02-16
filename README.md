@@ -1,15 +1,18 @@
-## What is a Progressive Web App?
-From [developers.google.com](https://developers.google.com/web/progressive-web-apps/), A Progressive Web App is:
+## A WIP project to look at using a WebBluetooth and an Adafruit nRF52840 Feather
+Ideally I would like to make a small progressive webapp that I can run on my phone or laptop and use to interact with a microcontroller that BLE support.
 
-- **Progressive** - Works for every user, regardless of browser choice because it's built with progressive enhancement as a core tenet.
-- **Responsive** - Fits any form factor: desktop, mobile, tablet, or whatever is next.
-- **Connectivity independent** - Enhanced with service workers to work offline or on low-quality networks.
-- **App-like** - Feels like an app, because the app shell model separates the application functionality from application content .
-- **Fresh** - Always up-to-date thanks to the service worker update process.
-- **Safe** - Served via HTTPS to prevent snooping and to ensure content hasn't been tampered with.
-- **Discoverable** - Is identifiable as an "application" thanks to W3C manifest and service worker registration scope, allowing search engines to find it.
-- **Re-engageable** - Makes re-engagement easy through features like push notifications.
-- **Installable** - Allows users to add apps they find most useful to their home screen without the hassle of an app store.
-- **Linkable** - Easily share the application via URL, does not require complex installation.
+Status: I can read values from the Feather on Chrome. Haven't tried on IOS yet.
 
-This template only covers some of points above since some points depend on your own environment, and you can adjust them by yourself.
+Steps to serve a page from your local machine to your phone etc:
+1. Make a [local ssl cert](https://web.dev/how-to-use-local-https/)
+2. Install the cert on your IOS/other device
+
+### Links
+[Web Bluetooth Walkthrough](https://web.dev/bluetooth/)
+
+[A little app to generate boilerplate code for webbluetooth](https://beaufortfrancois.github.io/sandbox/web-bluetooth/generator/)
+[example code for listening to a changed in a service](https://googlechrome.github.io/samples/web-bluetooth/read-characteristic-value-changed.html)
+
+[Adafruit nRF52840 Feather example: implementing a custom heart rate monitor](https://learn.adafruit.com/introducing-the-adafruit-nrf52840-feather/custom-hrm)
+
+[A browser for IOS that implements WebBluetooth](https://www.greenparksoftware.co.uk/projects/webble/1.2.3)
